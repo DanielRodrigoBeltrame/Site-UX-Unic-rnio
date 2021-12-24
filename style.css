@@ -8,6 +8,10 @@
     0. Reset
     1. General
     2. Header
+    3. Cities
+    4. Table of Contents
+    5. Stats
+    6. Footer
 
 ********************/
 /********************
@@ -75,7 +79,10 @@ header {
 
 }
 
+#hero
+
 nav {
+    
 
 }
 
@@ -93,5 +100,34 @@ nav {
 
 #hero-subtitle {
    
+
+}
+
+#call-to-scroll
+
+/********************
+    3. Cities
+********************/
+#cities {
+
+}
+/********************
+    4. Table of Contents 
+********************/
+#table-of-contents {
+
+}
+
+/********************
+    5. Stats
+********************/
+#stats {
+    
+}
+
+/********************
+    6. Footer
+********************/
+#footer {
 
 }
