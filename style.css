@@ -1,42 +1,47 @@
-/********************
-    Filname: style.css
-    Author: Daniel Rodrigo Beltrame
-    Date: December 24, 21;
+     /********************
+        Filname: style.css
+        Author: Daniel Rodrigo Beltrame
+        Date: December 24, 21;
 
-    Index
+        Index
 
-    0. Reset
-    1. General
-    2. Header
-    3. Cities
-    4. Table of Contents
-    5. Stats
-    6. Footer
+        0. Reset
+        1. General
+        2. Header
+        3. Cities
+        4. Table of Contents
+        5. Stats
+        6. Footer
 
-********************/
-/********************
-    0. Reset
-********************/
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
+     ********************/
+     /********************
+             0. Reset
+     ********************/
+     /********************
+         http://meyerweb.com/eric/tools/css/reset/ 
+        v2.0 | 20110126
+        License: none (public domain)
+     ********************/
 
-/********************
-    1. General
-********************/
+     /********************
+        1. General
+     ********************/
+
 body {
-    
 
-/********************
-    2. Header
-********************/
+    font-family: 'Poppins', sans-serif;
+    background-color: aqua;
 
-header {
-    
 }
+    
 
-#hero
+    /********************
+        2. Header
+    ********************/
+
+#hero {
+
+}
 
 nav {
     
@@ -65,7 +70,12 @@ a.brand-logo {
     
 }
 
-#call-to-scroll
+a.brand-logo {
+
+    font-size: 24px;
+    font-weight: 500;
+
+}
 
 /********************
     3. Cities
