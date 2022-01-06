@@ -30,9 +30,12 @@
 body {
 
     font-family: 'Poppins', sans-serif;
-    background-color: aqua;
 
 }
+
+::selection {
+    background: #ffee58;
+    color: #ff00af;
     
 
     /********************
@@ -52,10 +55,15 @@ nav {
 
 }
 
-#hero-header {
+#value-proposition a {
+    color: #B633BF;
 
 }
 
+#value-proposition .col {
+    padding: 0px;
+
+}
 #hero-title {
     
 }
