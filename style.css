@@ -42,28 +42,32 @@ body {
         2. Header
     ********************/
 
-#hero {
 
-}
 
 nav {
     
 
 }
 
+#hero {
+    color: fff;
+    background: linearGradient(120deg, #AC3ECF 0% )
+}
+
 #header-logo {
 
 }
 
-#value-proposition a {
-    color: #B633BF;
-
-}
 
 #value-proposition .col {
     padding: 0px;
 
 }
+
+#btn-header{
+    color: #B633BF;
+}
+
 #hero-title {
     
 }
