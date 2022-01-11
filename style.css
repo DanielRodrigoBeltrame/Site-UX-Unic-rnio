@@ -49,18 +49,18 @@ nav {
 
 }
 
-#hero {
-    color: fff;
-    background: linearGradient(120deg, #AC3ECF 0% )
-}
 
 #header-logo {
 
 }
 
+#hero {
+   
+}
 
 #value-proposition .col {
     padding: 0px;
+ 
 
 }
 
@@ -69,7 +69,7 @@ nav {
 }
 
 #hero-title {
-    
+
 }
 
 #hero-subtitle {
