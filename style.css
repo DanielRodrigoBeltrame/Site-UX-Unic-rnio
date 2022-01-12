@@ -33,10 +33,7 @@ body {
 
 }
 
-::selection {
-    background: #ffee58;
-    color: #ff00af;
-    
+
 
     /********************
         2. Header
@@ -45,7 +42,14 @@ body {
 
 
 nav {
-    
+    background: #ac3ecf; /* Old browsers */
+    background: -moz-linear-gradient(-45deg,  #ac3ecf 0%, #ff00af 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg,  #ac3ecf 0%,#ff00af 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg,  #ac3ecf 0%,#ff00af 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ac3ecf', endColorstr='#ff00af',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+   
+    -webkit-box-shadow: none;
+    box-shadow: none;
 
 }
 
@@ -55,7 +59,16 @@ nav {
 }
 
 #hero {
-   
+
+   color: white;
+   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ac3ecf+0,ff00af+100 */
+    background: #ac3ecf; /* Old browsers */
+    background: -moz-linear-gradient(-45deg,  #ac3ecf 0%, #ff00af 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg,  #ac3ecf 0%,#ff00af 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg,  #ac3ecf 0%,#ff00af 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ac3ecf', endColorstr='#ff00af',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+  
 }
 
 #value-proposition .col {
@@ -69,6 +82,7 @@ nav {
 }
 
 #hero-title {
+
 
 }
 
