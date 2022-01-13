@@ -48,7 +48,7 @@ h4 {
 }
 
 h5 {
-    
+
 }
 
 
@@ -135,7 +135,7 @@ a.brand-logo {
     4. Table of Contents 
 ********************/
 #table-of-contents {
-
+    background-color: rgb(165, 22, 22);
 }
 
 #table-of-contents-title {
@@ -147,6 +147,7 @@ a.brand-logo {
 }
 
 #table-of-contents-contents {
+    
 
 }
 
