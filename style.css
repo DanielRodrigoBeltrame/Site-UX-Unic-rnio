@@ -34,7 +34,10 @@ body {
 }
 
 h1 {
-
+    font-size: 48px;
+    line-height: 120%;
+    /*margin-top: 1500px; */
+    font-weight: 600;
 }
 
 h4 {
@@ -48,7 +51,10 @@ h4 {
 }
 
 h5 {
-
+    font-size: 16px;
+    line-height: 150%;
+    font-weight: 400;
+    margin-bottom: 3px;
 }
 
 
@@ -77,23 +83,26 @@ nav {
 }
 
 #hero {
-
-   color: white;
-   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ac3ecf+0,ff00af+100 */
+    color: white;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ac3ecf+0,ff00af+100 */
     background: #ac3ecf; /* Old browsers */
     background: -moz-linear-gradient(-45deg,  #ac3ecf 0%, #ff00af 100%); /* FF3.6-15 */
     background: -webkit-linear-gradient(-45deg,  #ac3ecf 0%,#ff00af 100%); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(135deg,  #ac3ecf 0%,#ff00af 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ac3ecf', endColorstr='#ff00af',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-
-  
+   
+    
 }
 
 #value-proposition .col {
     padding: 0px;
- 
 
 }
+
+#value-proposition {
+    height: 750px;
+}
+
 
 #btn-header{
     color: #B633BF;
@@ -135,7 +144,7 @@ a.brand-logo {
     4. Table of Contents 
 ********************/
 #table-of-contents {
-    background-color: rgb(165, 22, 22);
+    background-color: #FFF6FF
 }
 
 #table-of-contents-title {
@@ -147,7 +156,7 @@ a.brand-logo {
 }
 
 #table-of-contents-contents {
-    
+    background-color: #FFF;
 
 }
 
@@ -172,7 +181,7 @@ a.brand-logo {
 }
 
 .stats-subtitle {
-
+    
 }
 
 /********************
