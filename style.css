@@ -30,6 +30,7 @@
 body {
 
     font-family: 'Poppins', sans-serif;
+    color: #60495F;
 
 }
 
@@ -57,6 +58,12 @@ h5 {
     margin-bottom: 3px;
 }
 
+p {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #60495F;
+}
 
 
     /********************
@@ -114,14 +121,17 @@ nav {
 
 #btn-header{
     color: #B633BF;
+    font-weight: 600;
 }
 
-#hero-title {
+#hero-title h1 {
+    margin-bottom: -4px;
 
 
 }
 
-#hero-subtitle {
+#hero-subtitle h5 {
+    margin-bottom: 24px;
    
 
 }
@@ -138,9 +148,38 @@ a.brand-logo {
 
 }
 
+#call-to-scroll{
+    color: #ff00af;
+    font-size: 14.5px;
+    font-weight: 600;
+
+}
+
+#call-to-scroll i {
+    font-size: 50px;
+    
+}
+
+#call-to-scroll .cta{
+    margin-top: 24px;
+    margin-bottom: -12px;
+}
+
 /********************
     3. Cities
 ********************/
+
+.card-action a {
+    background: #FE03B0;
+    color: #FFF;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.card-action a:hover {
+    background: #9A259F;
+}
+
 #cities {
 
 }
@@ -152,15 +191,20 @@ a.brand-logo {
     4. Table of Contents 
 ********************/
 #table-of-contents {
-    background-color: #FFF6FF
+    background-color: #FFF6FF;
+    padding: 24px 0px;
 }
 
 #table-of-contents-title {
-
+    margin-top: 24px;
 }
 
-#table-of-contents-subtitle {
+#table-of-contents-title h4 {
+    margin-bottom: -8px;
+}
 
+#table-of-contents-subtitle p {
+    margin-bottom: 32px;
 }
 
 #table-of-contents-contents {
@@ -169,11 +213,24 @@ a.brand-logo {
 }
 
 .table-of-contents-contents-title {
-
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: left;
+    padding: 16px 16px 0px 16px;
 }
 
 .table-of-contents-contents-title-items {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: left;
+    padding: 0px 16px;
+    margin-left: 32px;
+}
 
+.table-of-contents-contents-title-items li {
+    padding: 4px 0px;
 }
 
 
@@ -181,20 +238,39 @@ a.brand-logo {
     5. Stats
 ********************/
 #stats {
-    
+    padding: 60px 0px;
+    background: url(images/stats.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 50% 100px;
+    background-size: 100% auto;
 }
 
 .stats-title {
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 90px;
+    color: #FE03B0;
+    text-shadow: 0px 0px 20px #ffffff;
+    padding-top: 32px;
 
 }
 
 .stats-subtitle {
-    
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #60495F;
+    padding-bottom: 32px;
 }
 
 /********************
     6. Footer
 ********************/
-footer {
-
+.page-footer {
+    background: #9c27b0;
+    padding-top: 20px;
+    color: #fff;
+   
 }
