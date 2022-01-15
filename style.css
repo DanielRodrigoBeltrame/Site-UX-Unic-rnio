@@ -94,14 +94,22 @@ nav {
     
 }
 
-#value-proposition .col {
-    padding: 0px;
-
+#background-map{
+    background-image: url(images/mapa.svg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 85% -100px;
 }
 
 #value-proposition {
     height: 750px;
 }
+
+#value-proposition .col {
+    padding: 0px;
+
+}
+
 
 
 #btn-header{
